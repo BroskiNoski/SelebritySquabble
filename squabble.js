@@ -41,4 +41,23 @@ $("#wrong").click(function(){
     counter++;
 })
 
+$("#reset").click(function(){
+    counter = 1;
+})
+
+var reset = document.getElementById("reset");
+reset.addEventListener("mousedown", function(){
+    reset.style.backgroundSize = "90% 90%";
+});
+
+reset.addEventListener("mouseup", function(){
+    reset.style.backgroundSize = "100% 100%";
+});
+
+
+
+
+
+
+
 
